@@ -1,0 +1,26 @@
+{
+  "name": "qdata",
+  "version": "1.0.1",
+  "description": "quick parse data from excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaxiaok/qdata.git"
+  },
+  "author": "TYC",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/akaxiaok/qdata/issues"
+  },
+  "homepage": "https://github.com/akaxiaok/qdata#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "xlsx": "^0.16.0"
+  },
+  "bin": {
+    "qdata": "./index.js"
+  }
+}
